@@ -1,0 +1,69 @@
+about:
+  description: Nix, the purely functional package manager
+  license: LGPL-2.1
+  homepage: https://nixos.org/
+  head: 72385de
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-02T05:18:09Z
+timeline:
+  created: 2012-02-08
+  lastCommit: 2026-09-01
+  lastRelease: ?
+popularity:
+  star: 17612
+  watcher: 134
+  fork: 1993
+  release: 0
+  contributor: 944
+  pullRequest: 2106
+  issue: 7286
+language:
+  C++: 5549978
+  Shell: 655234
+  Nix: 538920
+  Meson: 129623
+  C: 83589
+  Yacc: 24161
+  Python: 20435
+  Perl: 13274
+  Rust: 11496
+  Lex: 11371
+  Batchfile: 3078
+  Emacs Lisp: 598
+  Hack: 382
+  Ruby: 175
+totalLine: 7042314
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 0
+    mergedPR: 85
+    openPR: 31
+    closedIssue: 10
+    openIssue: 25
+    commit: 161
+  last90d:
+    since: 2026-06-04
+    release: 0
+    mergedPR: 238
+    openPR: 65
+    closedIssue: 34
+    openIssue: 82
+    commit: 524
+  last180d:
+    since: 2026-03-06
+    release: 0
+    mergedPR: 545
+    openPR: 151
+    closedIssue: 82
+    openIssue: 154
+    commit: 1172
+  last360d:
+    since: 2025-09-07
+    release: 0
+    mergedPR: 1520
+    openPR: 288
+    closedIssue: 233
+    openIssue: 283
+    commit: 3482
