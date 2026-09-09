@@ -2,12 +2,12 @@ about:
   description: "Nix, the purely functional package manager"
   license: LGPL-2.1
   homepage: https://nixos.org/
-  head: 415988d
+  head: da09465
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T06:23:26Z
+  collectedAt: 2026-09-09T20:36:09Z
 timeline:
   created: 2012-02-08
   lastCommit: 2026-09-09
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 17658
+  star: 17661
   watcher: 137
   fork: 1991
   release: 0
   contributor: 896
-  pullRequest: 8951
+  pullRequest: 8952
   issue: 7295
 language:
   C++: 5591005
-  Shell: 657524
+  Shell: 657908
   Nix: 543075
   Meson: 129765
   C: 83589
@@ -37,66 +37,66 @@ language:
   Emacs Lisp: 598
   Hack: 382
   Ruby: 175
-totalBytes: 7089928
+totalBytes: 7090312
 recent:
   last30d:
     since: 2026-08-10
     release: 0
-    mergedPR: 80
+    mergedPR: 81
     openPR: 40
     closedIssue: 10
     openIssue: 26
-    commit: 156
+    commit: 158
   last60d:
     since: 2026-07-11
     release: 0
-    mergedPR: 162
+    mergedPR: 163
     openPR: 57
     closedIssue: 24
     openIssue: 63
-    commit: 381
+    commit: 383
   last90d:
     since: 2026-06-11
     release: 0
-    mergedPR: 231
+    mergedPR: 232
     openPR: 72
     closedIssue: 32
     openIssue: 79
-    commit: 511
+    commit: 513
   last180d:
     since: 2026-03-13
     release: 0
-    mergedPR: 530
+    mergedPR: 531
     openPR: 151
     closedIssue: 79
     openIssue: 153
-    commit: 1133
+    commit: 1135
   last360d:
     since: 2025-09-14
     release: 0
-    mergedPR: 1497
+    mergedPR: 1498
     openPR: 289
     closedIssue: 227
     openIssue: 283
-    commit: 3453
+    commit: 3455
   last720d:
     since: 2024-09-19
     release: 0
-    mergedPR: 2872
+    mergedPR: 2873
     openPR: 355
     closedIssue: 563
     openIssue: 632
-    commit: 5945
+    commit: 5947
 total:
   release: 0
-  mergedPR: 6837
+  mergedPR: 6838
   openPR: 519
   closedIssue: 4866
   openIssue: 2429
-  commit: 24363
+  commit: 24365
 ---
 path: /home/runner/.x-repo/github.com/NixOS/nix
-collectedAt: 2026-09-09T06:23:42Z
+collectedAt: 2026-09-09T20:36:22Z
 loc:
   Cpp:
     code: 100707
@@ -114,8 +114,8 @@ loc:
     blanks: 2537
     files: 743
   Sh:
-    code: 12927
-    comments: 2999
+    code: 12934
+    comments: 3002
     blanks: 3865
     files: 285
   Json:
@@ -239,8 +239,8 @@ loc:
     blanks: 0
     files: 27
 total:
-  code: 170784
-  comments: 48932
+  code: 170791
+  comments: 48935
   blanks: 41629
   files: 2670
 ---
