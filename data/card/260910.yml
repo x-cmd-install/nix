@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:02:27Z
+  collectedAt: 2026-09-10T22:42:38Z
 timeline:
   created: 2012-02-08
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 17668
+  star: 17670
   watcher: 138
   fork: 1993
   release: 0
   contributor: 896
-  pullRequest: 8954
+  pullRequest: 8956
   issue: 7297
 language:
   C++: 5610340
@@ -43,7 +43,7 @@ recent:
     since: 2026-08-11
     release: 0
     mergedPR: 85
-    openPR: 35
+    openPR: 37
     closedIssue: 10
     openIssue: 28
     commit: 180
@@ -51,7 +51,7 @@ recent:
     since: 2026-07-12
     release: 0
     mergedPR: 166
-    openPR: 52
+    openPR: 54
     closedIssue: 24
     openIssue: 63
     commit: 405
@@ -59,7 +59,7 @@ recent:
     since: 2026-06-12
     release: 0
     mergedPR: 237
-    openPR: 68
+    openPR: 70
     closedIssue: 32
     openIssue: 81
     commit: 535
@@ -67,7 +67,7 @@ recent:
     since: 2026-03-14
     release: 0
     mergedPR: 536
-    openPR: 147
+    openPR: 149
     closedIssue: 79
     openIssue: 155
     commit: 1157
@@ -75,7 +75,7 @@ recent:
     since: 2025-09-15
     release: 0
     mergedPR: 1501
-    openPR: 284
+    openPR: 286
     closedIssue: 226
     openIssue: 282
     commit: 3477
@@ -83,20 +83,20 @@ recent:
     since: 2024-09-20
     release: 0
     mergedPR: 2877
-    openPR: 351
+    openPR: 353
     closedIssue: 563
     openIssue: 630
     commit: 5954
 total:
   release: 0
   mergedPR: 6844
-  openPR: 515
+  openPR: 517
   closedIssue: 4867
   openIssue: 2430
   commit: 24385
 ---
 path: /home/runner/.x-repo/github.com/NixOS/nix
-collectedAt: 2026-09-10T21:02:45Z
+collectedAt: 2026-09-10T22:42:51Z
 loc:
   Cpp:
     code: 100871
