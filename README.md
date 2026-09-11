@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,670 · **Forks**: 1,993 · **Open issues**: 7,297 · **Contributors**: 896
+- **Stars**: 17,673 · **Forks**: 1,993 · **Open issues**: 7,297 · **Contributors**: 896
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 85 | 37 | 10 | 28 | 180 |
-| last60d | 2026-07-12 | 0 | 166 | 54 | 24 | 63 | 405 |
-| 90d | 2026-06-12 | 0 | 237 | 70 | 32 | 81 | 535 |
-| last180d | 2026-03-14 | 0 | 536 | 149 | 79 | 155 | 1157 |
-| 360d | 2025-09-15 | 0 | 1501 | 286 | 226 | 282 | 3477 |
-| last720d | 2024-09-20 | 0 | 2877 | 353 | 563 | 630 | 5954 |
+| 30d | 2026-08-12 | 0 | 80 | 36 | 9 | 26 | 180 |
+| last60d | 2026-07-13 | 0 | 162 | 54 | 21 | 62 | 405 |
+| 90d | 2026-06-13 | 0 | 235 | 70 | 32 | 81 | 535 |
+| last180d | 2026-03-15 | 0 | 521 | 149 | 79 | 155 | 1157 |
+| 360d | 2025-09-16 | 0 | 1496 | 286 | 225 | 282 | 3477 |
+| last720d | 2024-09-21 | 0 | 2877 | 353 | 562 | 629 | 5948 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:43:00Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:14:00Z._
