@@ -2,28 +2,28 @@ about:
   description: "Nix, the purely functional package manager"
   license: LGPL-2.1
   homepage: https://nixos.org/
-  head: 8aad447
+  head: d262d70
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:13:41Z
+  collectedAt: 2026-09-11T18:41:58Z
 timeline:
   created: 2012-02-08
-  lastCommit: 2026-09-10
+  lastCommit: 2026-09-11
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 17673
+  star: 17674
   watcher: 138
-  fork: 1993
+  fork: 1995
   release: 0
   contributor: 896
-  pullRequest: 8956
+  pullRequest: 8960
   issue: 7297
 language:
-  C++: 5610340
+  C++: 5614649
   Shell: 659383
   Nix: 542868
   Meson: 130635
@@ -37,76 +37,76 @@ language:
   Emacs Lisp: 598
   Hack: 382
   Ruby: 175
-totalBytes: 7111785
+totalBytes: 7116094
 recent:
   last30d:
     since: 2026-08-12
     release: 0
-    mergedPR: 80
-    openPR: 36
-    closedIssue: 9
-    openIssue: 26
-    commit: 180
+    mergedPR: 81
+    openPR: 39
+    closedIssue: 10
+    openIssue: 25
+    commit: 189
   last60d:
     since: 2026-07-13
     release: 0
-    mergedPR: 162
-    openPR: 54
-    closedIssue: 21
-    openIssue: 62
-    commit: 405
+    mergedPR: 163
+    openPR: 56
+    closedIssue: 22
+    openIssue: 61
+    commit: 414
   last90d:
     since: 2026-06-13
     release: 0
-    mergedPR: 235
-    openPR: 70
-    closedIssue: 32
-    openIssue: 81
-    commit: 535
+    mergedPR: 236
+    openPR: 72
+    closedIssue: 33
+    openIssue: 80
+    commit: 544
   last180d:
     since: 2026-03-15
     release: 0
-    mergedPR: 521
-    openPR: 149
-    closedIssue: 79
-    openIssue: 155
-    commit: 1157
+    mergedPR: 522
+    openPR: 151
+    closedIssue: 80
+    openIssue: 154
+    commit: 1166
   last360d:
     since: 2025-09-16
     release: 0
-    mergedPR: 1496
-    openPR: 286
-    closedIssue: 225
-    openIssue: 282
-    commit: 3477
+    mergedPR: 1497
+    openPR: 288
+    closedIssue: 226
+    openIssue: 281
+    commit: 3486
   last720d:
     since: 2024-09-21
     release: 0
-    mergedPR: 2877
-    openPR: 353
-    closedIssue: 562
-    openIssue: 629
-    commit: 5948
+    mergedPR: 2878
+    openPR: 355
+    closedIssue: 563
+    openIssue: 628
+    commit: 5957
 total:
   release: 0
-  mergedPR: 6844
-  openPR: 517
-  closedIssue: 4867
-  openIssue: 2430
-  commit: 24385
+  mergedPR: 6845
+  openPR: 519
+  closedIssue: 4868
+  openIssue: 2429
+  commit: 24394
 ---
 path: /home/runner/.x-repo/github.com/NixOS/nix
-collectedAt: 2026-09-11T06:13:55Z
+collectedAt: 2026-09-11T18:42:15Z
 loc:
   Cpp:
-    code: 100871
-    comments: 9606
-    blanks: 18609
+    code: 100848
+    comments: 9588
+    blanks: 18599
     files: 494
   CppHeader:
-    code: 23248
-    comments: 12953
-    blanks: 7312
+    code: 23411
+    comments: 12948
+    blanks: 7352
     files: 342
   Nix:
     code: 17522
@@ -239,9 +239,9 @@ loc:
     blanks: 0
     files: 27
 total:
-  code: 171108
-  comments: 49110
-  blanks: 41710
+  code: 171248
+  comments: 49087
+  blanks: 41740
   files: 2680
 ---
 date: "2026-09-07"
