@@ -42,40 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,690 · **Forks**: 1,997 · **Open issues**: 7,298 · **Contributors**: 896
+- **Stars**: 17,703 · **Forks**: 1,999 · **Open issues**: 7,298 · **Contributors**: 895
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 6850 · **Open PRs**: 524 · **Closed issues**: 4868 · **Open issues**: 2430 · **Commits**: 24408
+- **Releases**: 0 · **Merged PRs**: 6851 · **Open PRs**: 524 · **Closed issues**: 4868 · **Open issues**: 2430 · **Commits**: 24410
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 84 | 41 | 10 | 25 | 145 |
-| last60d | 2026-07-15 | 0 | 162 | 53 | 21 | 59 | 381 |
-| 90d | 2026-06-15 | 0 | 238 | 76 | 33 | 79 | 526 |
-| last180d | 2026-03-17 | 0 | 514 | 152 | 79 | 154 | 1129 |
-| 360d | 2025-09-18 | 0 | 1492 | 292 | 226 | 279 | 3373 |
-| last720d | 2024-09-23 | 0 | 2877 | 360 | 562 | 624 | 5971 |
-
-## Distribution status
-
-Reported by **161** distros on [repology.org](https://repology.org/project/nix). **14** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.34.8` | ⚠️ outdated |
-| Debian 14 | `2.34.8` | ⚠️ outdated |
-| Debian 13 | `2.26.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.34.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.18.1` | ⚠️ outdated |
-| Arch | `2.35.2` | ✅ latest |
-| Fedora rawhide | `2.35.2` | ✅ latest |
-| Nix unstable | `2.34.8` | 🪦 legacy |
-| Void | `2.30.5` | ⚠️ outdated |
-| Alpine edge | `2.31.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.35.2` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 81 | 41 | 10 | 25 | 147 |
+| last60d | 2026-07-16 | 0 | 161 | 53 | 21 | 59 | 383 |
+| 90d | 2026-06-16 | 0 | 237 | 74 | 32 | 78 | 528 |
+| last180d | 2026-03-18 | 0 | 510 | 147 | 79 | 153 | 1131 |
+| 360d | 2025-09-19 | 0 | 1485 | 292 | 225 | 279 | 3375 |
+| last720d | 2024-09-24 | 0 | 2876 | 360 | 561 | 624 | 5969 |
 
 ## Improve this data
 
@@ -86,4 +68,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:13:20Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:31:25Z._
