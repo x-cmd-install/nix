@@ -348,3 +348,4 @@ checks:
       - 'Warn: ''up-to-date branches'' is disabled on branch ''master'''
       - 'Info: status check found to merge onto on branch ''master'''
       - 'Info: PRs are required in order to make changes on branch ''master'''
+---
