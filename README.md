@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,716 · **Forks**: 2,002 · **Open issues**: 7,301 · **Contributors**: 896
+- **Stars**: 17,730 · **Forks**: 2,004 · **Open issues**: 7,301 · **Contributors**: 896
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 6858 · **Open PRs**: 521 · **Closed issues**: 4870 · **Open issues**: 2431 · **Commits**: 24431
+- **Releases**: 0 · **Merged PRs**: 6858 · **Open PRs**: 527 · **Closed issues**: 4870 · **Open issues**: 2431 · **Commits**: 24431
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 82 | 36 | 9 | 25 | 169 |
-| last60d | 2026-07-18 | 0 | 165 | 50 | 22 | 59 | 405 |
-| 90d | 2026-06-18 | 0 | 238 | 70 | 32 | 78 | 550 |
-| last180d | 2026-03-20 | 0 | 510 | 143 | 78 | 150 | 1153 |
-| 360d | 2025-09-21 | 0 | 1489 | 289 | 223 | 279 | 3397 |
-| last720d | 2024-09-26 | 0 | 2870 | 357 | 560 | 625 | 5982 |
+| 30d | 2026-08-18 | 0 | 79 | 41 | 8 | 24 | 169 |
+| last60d | 2026-07-19 | 0 | 163 | 56 | 22 | 57 | 405 |
+| 90d | 2026-06-19 | 0 | 235 | 76 | 32 | 78 | 550 |
+| last180d | 2026-03-21 | 0 | 509 | 149 | 78 | 150 | 1153 |
+| 360d | 2025-09-22 | 0 | 1477 | 295 | 223 | 279 | 3397 |
+| last720d | 2024-09-27 | 0 | 2866 | 362 | 557 | 624 | 5977 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:34:11Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:34:34Z._
