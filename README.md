@@ -14,15 +14,15 @@ x install nix
 
 ## Code insight
 
-Total: **170,852** lines of code across **1978** files in the top 5 languages.
+Total: **170,874** lines of code across **1978** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 101,415 | 9,639 | 18,743 | 497 |
-| CppHeader | 23,508 | 13,050 | 7,385 | 344 |
+| Cpp | 101,429 | 9,639 | 18,748 | 497 |
+| CppHeader | 23,510 | 13,059 | 7,387 | 344 |
 | Nix | 17,598 | 2,000 | 2,532 | 744 |
 | Sh | 13,138 | 3,049 | 3,916 | 294 |
-| Meson | 4,736 | 358 | 638 | 99 |
+| Meson | 4,742 | 360 | 640 | 99 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,832 · **Forks**: 2,018 · **Open issues**: 7,327 · **Contributors**: 905
+- **Stars**: 17,834 · **Forks**: 2,021 · **Open issues**: 7,327 · **Contributors**: 905
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 6893 · **Open PRs**: 546 · **Closed issues**: 4880 · **Open issues**: 2447 · **Commits**: 24512
+- **Releases**: 0 · **Merged PRs**: 6897 · **Open PRs**: 540 · **Closed issues**: 4884 · **Open issues**: 2443 · **Commits**: 24521
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 50 | 44 | 8 | 26 | 106 |
-| last60d | 2026-08-07 | 0 | 139 | 73 | 22 | 52 | 307 |
-| 90d | 2026-07-08 | 0 | 216 | 89 | 36 | 88 | 530 |
-| last180d | 2026-04-09 | 0 | 474 | 156 | 79 | 154 | 1090 |
-| 360d | 2025-10-11 | 0 | 1395 | 306 | 209 | 285 | 3074 |
-| last720d | 2024-10-16 | 0 | 2851 | 380 | 549 | 619 | 5965 |
+| 30d | 2026-09-07 | 0 | 53 | 42 | 8 | 24 | 115 |
+| last60d | 2026-08-08 | 0 | 142 | 73 | 21 | 51 | 316 |
+| 90d | 2026-07-09 | 0 | 220 | 89 | 37 | 86 | 539 |
+| last180d | 2026-04-10 | 0 | 474 | 151 | 82 | 148 | 1099 |
+| 360d | 2025-10-12 | 0 | 1392 | 299 | 212 | 282 | 3083 |
+| last720d | 2024-10-17 | 0 | 2855 | 374 | 553 | 614 | 5959 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:40:31Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:11:22Z._
