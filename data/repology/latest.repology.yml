@@ -12,34 +12,28 @@
     - jljusten@debian.org
   categories:
     - misc
-- repo: liguros_develop
-  srcname: sys-apps/nix
-  visiblename: sys-apps/nix
-  version: 2.35.2
+- repo: gnuguix
+  srcname: nix
+  binname: nix
+  visiblename: nix
+  version: 2.32.8
   origversion: null
-  status: legacy
-  summary: A purely functional package manager
+  status: outdated
+  summary: The Nix package manager
+- repo: kali_rolling
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.34.8
+  origversion: 2.34.8+dfsg-1
+  status: outdated
   maintainers:
-    - dev@liguros.net
-    - slyich@gmail.com
-  licenses:
-    - LGPL-2.1
+    - jljusten@debian.org
   categories:
-    - sys-apps
-- repo: liguros_develop
-  srcname: sys-apps/nix
-  visiblename: sys-apps/nix
-  version: 2.35.3
-  origversion: null
-  status: newest
-  summary: A purely functional package manager
-  maintainers:
-    - dev@liguros.net
-    - slyich@gmail.com
-  licenses:
-    - LGPL-2.1
-  categories:
-    - sys-apps
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: nix
@@ -66,28 +60,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nix
-  binname: nix
-  visiblename: nix
-  version: 2.35.2
-  origversion: 2.35.2-2
-  status: outdated
-  summary: A purely functional package manager
-  licenses:
-    - LGPL-2.1-only
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nix
-  binname: nix
-  visiblename: nix
-  version: 2.35.2
-  origversion: 2.35.2-4
-  status: outdated
-  summary: A purely functional package manager
-  licenses:
-    - LGPL-2.1-only
 - repo: alpine_3_23
   subrepo: community
   srcname: nix
@@ -218,17 +190,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nix
-  binname: nix
-  visiblename: nix
-  version: 2.35.3
-  origversion: 2.35.3-1
-  status: newest
-  summary: A purely functional package manager
-  licenses:
-    - LGPL-2.1-only
 - repo: alpine_3_24
   subrepo: community
   srcname: nix
@@ -449,8 +410,8 @@
   srcname: nix
   binname: nix
   visiblename: nix
-  version: 2.35.3
-  origversion: 2.35.3-1
+  version: 2.35.4
+  origversion: 2.35.4-1
   status: newest
   summary: A purely functional package manager
   licenses:
@@ -634,34 +595,73 @@
   visiblename: nix
   version: 2.35.3
   origversion: 2.35.3-2.fc46
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   licenses:
     - LGPL-2.1-or-later
   categories:
     - Unspecified
-- repo: gnuguix
+- repo: liguros_develop
+  srcname: sys-apps/nix
+  visiblename: sys-apps/nix
+  version: 2.35.2
+  origversion: null
+  status: legacy
+  summary: A purely functional package manager
+  maintainers:
+    - dev@liguros.net
+    - slyich@gmail.com
+  licenses:
+    - LGPL-2.1
+  categories:
+    - sys-apps
+- repo: liguros_develop
+  srcname: sys-apps/nix
+  visiblename: sys-apps/nix
+  version: 2.35.3
+  origversion: null
+  status: outdated
+  summary: A purely functional package manager
+  maintainers:
+    - dev@liguros.net
+    - slyich@gmail.com
+  licenses:
+    - LGPL-2.1
+  categories:
+    - sys-apps
+- repo: manjaro_stable
+  subrepo: extra
   srcname: nix
   binname: nix
   visiblename: nix
-  version: 2.32.8
-  origversion: null
+  version: 2.35.2
+  origversion: 2.35.2-2
   status: outdated
-  summary: The Nix package manager
-- repo: kali_rolling
-  subrepo: main
+  summary: A purely functional package manager
+  licenses:
+    - LGPL-2.1-only
+- repo: manjaro_testing
+  subrepo: extra
   srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
+  binname: nix
   visiblename: nix
-  version: 2.34.8
-  origversion: 2.34.8+dfsg-1
+  version: 2.35.2
+  origversion: 2.35.2-4
   status: outdated
-  maintainers:
-    - jljusten@debian.org
-  categories:
-    - misc
+  summary: A purely functional package manager
+  licenses:
+    - LGPL-2.1-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nix
+  binname: nix
+  visiblename: nix
+  version: 2.35.4
+  origversion: 2.35.4-1
+  status: newest
+  summary: A purely functional package manager
+  licenses:
+    - LGPL-2.1-only
 - repo: nix_stable_24_05
   srcname: nixVersions.minimum
   visiblename: nix
@@ -707,20 +707,6 @@
     - LGPL-2.1-or-later
   categories:
     - nixVersions
-- repo: raspbian_testing
-  subrepo: main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.34.8
-  origversion: 2.34.8+dfsg-1
-  status: outdated
-  maintainers:
-    - jljusten@debian.org
-  categories:
-    - misc
 - repo: nix_stable_25_05
   srcname: nixVersions.git
   visiblename: nix
@@ -1027,12 +1013,26 @@
     - LGPL-2.1-or-later
   categories:
     - nixVersions
+- repo: raspbian_testing
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.34.8
+  origversion: 2.34.8+dfsg-1
+  status: outdated
+  maintainers:
+    - jljusten@debian.org
+  categories:
+    - misc
 - repo: nix_stable_26_05
   srcname: nixVersions.latest
   visiblename: nix
   version: 2.35.3
   origversion: null
-  status: newest
+  status: outdated
   summary: Nix package manager
   maintainers:
     - artturin@artturin.com
@@ -1056,7 +1056,7 @@
   visiblename: nix
   version: 2.35.3
   origversion: null
-  status: newest
+  status: outdated
   summary: Nix package manager
   maintainers:
     - artturin@artturin.com
@@ -1259,7 +1259,7 @@
   visiblename: nix
   version: 2.35.3
   origversion: null
-  status: newest
+  status: outdated
   summary: Nix package manager
   maintainers:
     - artturin@artturin.com
@@ -1282,7 +1282,7 @@
   visiblename: nix
   version: 2.35.3
   origversion: null
-  status: newest
+  status: outdated
   summary: Nix package manager
   maintainers:
     - artturin@artturin.com
@@ -1337,7 +1337,7 @@
   visiblename: nix
   version: 2.35.3
   origversion: 2.35.3-1.1
-  status: newest
+  status: outdated
   summary: The purely functional package manager
   licenses:
     - LGPL-2.1-only
@@ -1350,7 +1350,7 @@
   visiblename: nix
   version: 2.35.3
   origversion: 2.35.3-1
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   licenses:
     - LGPL-2.1-only
@@ -1360,7 +1360,7 @@
   visiblename: bin/nix
   version: 2.35.3
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - anton@samokhvalov.xyz
   categories:
@@ -1369,7 +1369,7 @@
   srcname: bin/nix/unwrap
   binname: bin/nix
   visiblename: bin/nix
-  version: 2.35.3
+  version: 2.35.4
   origversion: null
   status: newest
   maintainers:
@@ -1412,36 +1412,6 @@
   summary: cross-platform package manager
   licenses:
     - GNU Lesser General Public License, version 2.1
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.6.0
-  origversion: 2.6.0+dfsg-3
-  status: outdated
-  maintainers:
-    - thomas@koch.ro
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: liguros_stable
-  srcname: sys-apps/nix
-  visiblename: sys-apps/nix
-  version: 2.31.0
-  origversion: null
-  status: legacy
-  summary: A purely functional package manager
-  maintainers:
-    - dev@liguros.net
-    - slyich@gmail.com
-  licenses:
-    - LGPL-2.1
-  categories:
-    - sys-apps
-  vulnerable: true
 - repo: alpine_3_20
   subrepo: community
   srcname: nix
@@ -1581,21 +1551,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
-  vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.26.3
-  origversion: 2.26.3+dfsg-1
-  status: outdated
-  maintainers:
-    - jljusten@debian.org
-  categories:
-    - devel
   vulnerable: true
 - repo: alpine_3_21
   subrepo: community
@@ -1694,6 +1649,21 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
+  vulnerable: true
+- repo: liguros_stable
+  srcname: sys-apps/nix
+  visiblename: sys-apps/nix
+  version: 2.31.0
+  origversion: null
+  status: legacy
+  summary: A purely functional package manager
+  maintainers:
+    - dev@liguros.net
+    - slyich@gmail.com
+  licenses:
+    - LGPL-2.1
+  categories:
+    - sys-apps
   vulnerable: true
 - repo: alpine_3_22
   subrepo: community
@@ -1807,20 +1777,68 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: nix_stable_25_05
+  srcname: nix
+  visiblename: nix
+  version: 2.28.5
+  origversion: null
+  status: legacy
+  summary: Powerful package manager that makes package management reliable and reproducible
+  maintainers:
+    - meurerbernardo@gmail.com
+    - artturin@artturin.com
+    - edolstra+nixpkgs@gmail.com
+    - joerg@thalheim.io
+    - tomberek@gmail.com
+    - nixpkgs@roberthensing.nl
+    - john.ericson@obsidian.systems
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
   srcname: nix
   binnames:
     - nix-bin
     - nix-setup-systemd
   visiblename: nix
-  version: 2.18.1
-  origversion: 2.18.1+dfsg-1ubuntu5
+  version: 2.26.3
+  origversion: 2.26.3+dfsg-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - jljusten@debian.org
   categories:
-    - universe/misc
+    - misc
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.3.7
+  origversion: 2.3.7+dfsg1-1
+  status: outdated
+  maintainers:
+    - thomas@koch.ro
+  categories:
+    - devel
+  vulnerable: true
+- repo: liguros_stable
+  srcname: sys-apps/nix
+  visiblename: sys-apps/nix
+  version: 2.31.1
+  origversion: null
+  status: outdated
+  summary: A purely functional package manager
+  maintainers:
+    - dev@liguros.net
+    - slyich@gmail.com
+  licenses:
+    - LGPL-2.1
+  categories:
+    - sys-apps
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
@@ -1895,21 +1913,6 @@
   categories:
     - sys-apps
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.8.0
-  origversion: 2.8.0-1.1
-  status: outdated
-  maintainers:
-    - thomas@koch.ro
-  categories:
-    - misc
-  vulnerable: true
 - repo: fedora_41
   subrepo: updates
   srcname: nix
@@ -1946,23 +1949,8 @@
   categories:
     - sysutils
   vulnerable: true
-- repo: liguros_stable
-  srcname: sys-apps/nix
-  visiblename: sys-apps/nix
-  version: 2.31.1
-  origversion: null
-  status: outdated
-  summary: A purely functional package manager
-  maintainers:
-    - dev@liguros.net
-    - slyich@gmail.com
-  licenses:
-    - LGPL-2.1
-  categories:
-    - sys-apps
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: nix
   binnames:
     - nix-bin
@@ -1974,7 +1962,7 @@
   maintainers:
     - jljusten@debian.org
   categories:
-    - misc
+    - devel
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: nix
@@ -2196,32 +2184,6 @@
   categories:
     - nixVersions
   vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.3.7
-  origversion: 2.3.7+dfsg1-1
-  status: outdated
-  maintainers:
-    - thomas@koch.ro
-  categories:
-    - devel
-  vulnerable: true
-- repo: spack
-  srcname: nix
-  visiblename: nix
-  version: 2.3.15
-  origversion: null
-  status: outdated
-  maintainers:
-    - charmoniumq@spack
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
 - repo: nix_stable_24_11
   srcname: nixVersions.nix_2_20
   visiblename: nix
@@ -2362,23 +2324,20 @@
   categories:
     - nixVersions
   vulnerable: true
-- repo: nix_stable_25_05
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
   visiblename: nix
-  version: 2.28.5
-  origversion: null
-  status: legacy
-  summary: Powerful package manager that makes package management reliable and reproducible
+  version: 2.8.0
+  origversion: 2.8.0-1.1
+  status: outdated
   maintainers:
-    - meurerbernardo@gmail.com
-    - artturin@artturin.com
-    - edolstra+nixpkgs@gmail.com
-    - joerg@thalheim.io
-    - tomberek@gmail.com
-    - nixpkgs@roberthensing.nl
-    - john.ericson@obsidian.systems
-  licenses:
-    - LGPL-2.1-or-later
+    - thomas@koch.ro
+  categories:
+    - misc
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: nixVersions.latest
@@ -2480,6 +2439,21 @@
   categories:
     - nixVersions
   vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.26.3
+  origversion: 2.26.3+dfsg-1
+  status: outdated
+  maintainers:
+    - jljusten@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: slackbuilds
   srcname: system/nix
   visiblename: system/nix
@@ -2521,20 +2495,46 @@
   categories:
     - misc
   vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
+- repo: spack
+  srcname: nix
+  visiblename: nix
+  version: 2.3.15
+  origversion: null
+  status: outdated
+  maintainers:
+    - charmoniumq@spack
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: nix
   binnames:
     - nix-bin
     - nix-setup-systemd
   visiblename: nix
-  version: 2.26.3
-  origversion: 2.26.3+dfsg-1
+  version: 2.6.0
+  origversion: 2.6.0+dfsg-3
   status: outdated
   maintainers:
-    - jljusten@debian.org
+    - thomas@koch.ro
   categories:
-    - misc
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.18.1
+  origversion: 2.18.1+dfsg-1ubuntu5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
   vulnerable: true
 - repo: ubuntu_25_04
   subrepo: plucky/universe
