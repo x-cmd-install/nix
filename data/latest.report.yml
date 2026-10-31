@@ -2,26 +2,26 @@ about:
   description: "Nix, the purely functional package manager"
   license: LGPL-2.1
   homepage: https://nixos.org/
-  head: 8759435
+  head: 6972a4e
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-30T07:04:18Z
+  collectedAt: 2026-10-31T06:52:16Z
 timeline:
   created: 2012-02-08
-  lastCommit: 2026-10-29
+  lastCommit: 2026-10-30
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 17941
+  star: 17947
   watcher: 131
-  fork: 2058
+  fork: 2060
   release: 0
   contributor: 912
-  pullRequest: 9173
-  issue: 7357
+  pullRequest: 9178
+  issue: 7358
 language:
   C++: 5686737
   Shell: 687012
@@ -40,63 +40,63 @@ language:
 totalBytes: 7229590
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
-    mergedPR: 84
-    openPR: 59
+    mergedPR: 85
+    openPR: 60
     closedIssue: 10
-    openIssue: 29
-    commit: 194
+    openIssue: 30
+    commit: 197
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 141
-    openPR: 99
+    openPR: 98
     closedIssue: 20
     openIssue: 53
-    commit: 358
+    commit: 361
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
     mergedPR: 238
-    openPR: 116
+    openPR: 119
     closedIssue: 34
     openIssue: 75
-    commit: 576
+    commit: 579
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
     mergedPR: 482
-    openPR: 170
-    closedIssue: 85
+    openPR: 171
+    closedIssue: 84
     openIssue: 153
-    commit: 1133
+    commit: 1136
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
-    mergedPR: 1294
-    openPR: 323
-    closedIssue: 203
+    mergedPR: 1288
+    openPR: 326
+    closedIssue: 202
     openIssue: 284
-    commit: 2926
+    commit: 2929
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
     mergedPR: 2873
-    openPR: 409
+    openPR: 412
     closedIssue: 542
-    openIssue: 609
-    commit: 5996
+    openIssue: 610
+    commit: 5994
 total:
   release: 0
-  mergedPR: 6981
-  openPR: 578
+  mergedPR: 6983
+  openPR: 581
   closedIssue: 4903
-  openIssue: 2454
-  commit: 24716
+  openIssue: 2455
+  commit: 24719
 ---
 path: /home/runner/.x-repo/github.com/NixOS/nix
-collectedAt: 2026-10-30T07:04:33Z
+collectedAt: 2026-10-31T06:52:29Z
 loc:
   Cpp:
     code: 102112
