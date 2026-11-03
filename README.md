@@ -14,15 +14,15 @@ x install nix
 
 ## Code insight
 
-Total: **172,623** lines of code across **2003** files in the top 5 languages.
+Total: **173,373** lines of code across **2010** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 102,474 | 9,801 | 18,878 | 504 |
-| CppHeader | 23,580 | 13,062 | 7,413 | 346 |
+| Cpp | 103,050 | 9,906 | 18,986 | 509 |
+| CppHeader | 23,747 | 13,228 | 7,469 | 348 |
 | Nix | 17,734 | 2,029 | 2,541 | 753 |
-| Sh | 13,303 | 3,084 | 3,956 | 299 |
-| Meson | 4,759 | 359 | 642 | 101 |
+| Sh | 13,303 | 3,086 | 3,956 | 299 |
+| Meson | 4,766 | 359 | 642 | 101 |
 
 ## OpenSSF Scorecard
 
@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,960 · **Forks**: 2,063 · **Open issues**: 7,363 · **Contributors**: 912
+- **Stars**: 17,966 · **Forks**: 2,063 · **Open issues**: 7,364 · **Contributors**: 913
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 6989 · **Open PRs**: 583 · **Closed issues**: 4907 · **Open issues**: 2456 · **Commits**: 24746
+- **Releases**: 0 · **Merged PRs**: 6995 · **Open PRs**: 583 · **Closed issues**: 4908 · **Open issues**: 2456 · **Commits**: 24761
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 86 | 62 | 10 | 27 | 175 |
-| last60d | 2026-09-03 | 0 | 143 | 99 | 21 | 54 | 338 |
-| 90d | 2026-08-04 | 0 | 240 | 121 | 36 | 77 | 548 |
-| last180d | 2026-05-06 | 0 | 483 | 169 | 84 | 155 | 1125 |
-| 360d | 2025-11-07 | 0 | 1274 | 328 | 202 | 286 | 2881 |
-| last720d | 2024-11-12 | 0 | 2867 | 414 | 538 | 611 | 6005 |
+| 30d | 2026-10-04 | 0 | 88 | 63 | 10 | 28 | 189 |
+| last60d | 2026-09-04 | 0 | 146 | 99 | 21 | 52 | 352 |
+| 90d | 2026-08-05 | 0 | 238 | 122 | 37 | 77 | 562 |
+| last180d | 2026-05-07 | 0 | 487 | 170 | 85 | 154 | 1139 |
+| 360d | 2025-11-08 | 0 | 1280 | 328 | 202 | 286 | 2896 |
+| last720d | 2024-11-13 | 0 | 2870 | 413 | 537 | 609 | 6007 |
 
 ## Distribution status
 
-Reported by **162** distros on [repology.org](https://repology.org/project/nix). **11** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
+Reported by **162** distros on [repology.org](https://repology.org/project/nix). **13** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.35.4` | ✅ latest |
-| Debian 14 | `2.34.8` | ⚠️ outdated |
+| Debian 14 | `2.35.4` | ✅ latest |
 | Debian 13 | `2.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.34.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.18.1` | ⚠️ outdated |
 | Arch | `2.35.4` | ✅ latest |
 | Fedora rawhide | `2.35.4` | ✅ latest |
 | Nix unstable | `2.34.9` | 🪦 legacy |
-| Void | `2.30.5` | ⚠️ outdated |
+| Void | `2.35.2` | ⚠️ outdated |
 | Alpine edge | `2.31.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.35.4` | ✅ latest |
 
@@ -86,4 +86,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:31:53Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:18:22Z._
