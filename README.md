@@ -26,7 +26,7 @@ Total: **173,373** lines of code across **2010** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.5 / 10**
+Overall score: **6.3 / 10**
 
 Lowest-scoring checks:
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 6995 · **Open PRs**: 583 · **Closed issues**: 4908 · **Open issues**: 2456 · **Commits**: 24761
+- **Releases**: 0 · **Merged PRs**: 6995 · **Open PRs**: 585 · **Closed issues**: 4907 · **Open issues**: 2457 · **Commits**: 24761
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 88 | 63 | 10 | 28 | 189 |
-| last60d | 2026-09-04 | 0 | 146 | 99 | 21 | 52 | 352 |
-| 90d | 2026-08-05 | 0 | 238 | 122 | 37 | 77 | 562 |
-| last180d | 2026-05-07 | 0 | 487 | 170 | 85 | 154 | 1139 |
-| 360d | 2025-11-08 | 0 | 1280 | 328 | 202 | 286 | 2896 |
-| last720d | 2024-11-13 | 0 | 2870 | 413 | 537 | 609 | 6007 |
+| 30d | 2026-10-05 | 0 | 86 | 65 | 10 | 29 | 189 |
+| last60d | 2026-09-05 | 0 | 146 | 99 | 21 | 53 | 352 |
+| 90d | 2026-08-06 | 0 | 236 | 124 | 35 | 78 | 562 |
+| last180d | 2026-05-08 | 0 | 485 | 169 | 85 | 153 | 1139 |
+| 360d | 2025-11-09 | 0 | 1270 | 329 | 199 | 287 | 2896 |
+| last720d | 2024-11-14 | 0 | 2867 | 415 | 535 | 609 | 5997 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:18:22Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:41:18Z._
