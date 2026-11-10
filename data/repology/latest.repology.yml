@@ -1,17 +1,27 @@
-- repo: raspbian_testing
-  subrepo: main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.35.4
-  origversion: 2.35.4+dfsg-1
-  status: newest
+- repo: aur
+  srcname: nix-git
+  binname: nix-git
+  visiblename: nix-git
+  version: 2.2.r15648.gccba158
+  origversion: 2.2.r15648.gccba158-1
+  status: rolling
+  summary: A purely functional package manager
   maintainers:
-    - jljusten@debian.org
-  categories:
-    - misc
+    - alerque@aur
+  licenses:
+    - LGPL-2.1-only
+- repo: aur
+  srcname: nix-git
+  binname: perl-nix-git
+  visiblename: perl-nix-git
+  version: 2.2.r15648.gccba158
+  origversion: 2.2.r15648.gccba158-1
+  status: rolling
+  summary: A purely functional package manager (Perl bindings)
+  maintainers:
+    - alerque@aur
+  licenses:
+    - LGPL-2.1-only
 - repo: alpine_3_23
   subrepo: community
   srcname: nix
@@ -388,8 +398,8 @@
   srcname: nix
   binname: nix
   visiblename: nix
-  version: 2.35.4
-  origversion: 2.35.4-1
+  version: 2.35.5
+  origversion: 2.35.5-1
   status: newest
   summary: A purely functional package manager
   licenses:
@@ -399,34 +409,10 @@
   srcname: nix
   binname: nix
   visiblename: nix
-  version: 2.35.4
-  origversion: 2.35.4-2
+  version: 2.35.5
+  origversion: 2.35.5-2
   status: newest
   summary: A purely functional package manager
-  licenses:
-    - LGPL-2.1-only
-- repo: aur
-  srcname: nix-git
-  binname: nix-git
-  visiblename: nix-git
-  version: 2.2.r15648.gccba158
-  origversion: 2.2.r15648.gccba158-1
-  status: rolling
-  summary: A purely functional package manager
-  maintainers:
-    - alerque@aur
-  licenses:
-    - LGPL-2.1-only
-- repo: aur
-  srcname: nix-git
-  binname: perl-nix-git
-  visiblename: perl-nix-git
-  version: 2.2.r15648.gccba158
-  origversion: 2.2.r15648.gccba158-1
-  status: rolling
-  summary: A purely functional package manager (Perl bindings)
-  maintainers:
-    - alerque@aur
   licenses:
     - LGPL-2.1-only
 - repo: debian_14
@@ -438,7 +424,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - jljusten@debian.org
   categories:
@@ -452,7 +438,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - jljusten@debian.org
   categories:
@@ -466,7 +452,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - jljusten@debian.org
   categories:
@@ -539,28 +525,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: nix
-  binnames:
-    - nix
-    - nix-core
-    - nix-daemon
-    - nix-devel
-    - nix-doc
-    - nix-filesystem
-    - nix-legacy
-    - nix-libs
-    - nix-system
-  visiblename: nix
-  version: 2.35.3
-  origversion: 2.35.3-2.fc44
-  status: outdated
-  summary: A purely functional package manager
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: nix
   binnames:
@@ -582,6 +546,28 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: nix
+  binnames:
+    - nix
+    - nix-core
+    - nix-daemon
+    - nix-devel
+    - nix-doc
+    - nix-filesystem
+    - nix-legacy
+    - nix-libs
+    - nix-system
+  visiblename: nix
+  version: 2.35.3
+  origversion: 2.35.3-2.fc44
+  status: outdated
+  summary: A purely functional package manager
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: nix
@@ -598,7 +584,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4-1.fc46
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   licenses:
     - LGPL-2.1-or-later
@@ -631,7 +617,7 @@
   visiblename: sys-apps/nix
   version: 2.35.4
   origversion: null
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   maintainers:
     - dev@liguros.net
@@ -672,7 +658,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4-1
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   licenses:
     - LGPL-2.1-only
@@ -681,8 +667,8 @@
   srcname: nix
   binname: nix
   visiblename: nix
-  version: 2.35.4
-  origversion: 2.35.4-1
+  version: 2.35.5
+  origversion: 2.35.5-1
   status: newest
   summary: A purely functional package manager
   licenses:
@@ -732,17 +718,20 @@
     - LGPL-2.1-or-later
   categories:
     - nixVersions
-- repo: stalix
-  srcname: bin/nix/unwrap
-  binname: bin/nix
-  visiblename: bin/nix
+- repo: raspbian_testing
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
   version: 2.35.4
-  origversion: null
-  status: newest
+  origversion: 2.35.4+dfsg-1
+  status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - jljusten@debian.org
   categories:
-    - bin
+    - misc
 - repo: nix_stable_25_05
   srcname: nixVersions.git
   visiblename: nix
@@ -1336,7 +1325,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4-1.1
-  status: newest
+  status: outdated
   summary: The purely functional package manager
   licenses:
     - LGPL-2.1-only
@@ -1349,10 +1338,32 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4-1
-  status: newest
+  status: outdated
   summary: A purely functional package manager
   licenses:
     - LGPL-2.1-only
+- repo: stalix
+  srcname: bin/nix/unwrap
+  binname: bin/nix
+  visiblename: bin/nix
+  version: 2.35.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/nix/unwrap
+  binname: bin/nix
+  visiblename: bin/nix
+  version: 2.35.5
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: ubuntu_26_10
   subrepo: stonking/universe
   srcname: nix
@@ -1376,7 +1387,7 @@
   visiblename: nix
   version: 2.35.4
   origversion: 2.35.4+dfsg-1
-  status: newest
+  status: outdated
   maintainers:
     - jljusten@debian.org
   categories:
@@ -1399,44 +1410,35 @@
   visiblename: Nix
   version: 2.35.4
   origversion: null
-  status: newest
+  status: outdated
   summary: cross-platform package manager
   licenses:
     - GNU Lesser General Public License, version 2.1
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: alpine_3_20
+  subrepo: community
   srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
+  binname: nix
   visiblename: nix
-  version: 2.8.0
-  origversion: 2.8.0-1.1
+  version: 2.22.0
+  origversion: 2.22.0-r0
   status: outdated
+  summary: The purely functional package manager
   maintainers:
-    - thomas@koch.ro
-  categories:
-    - misc
+    - folliekazetani@protonmail.com
+  licenses:
+    - LGPL-2.1-or-later
   vulnerable: true
-- repo: stalix_dev
-  srcname: bin/nix/unwrap
-  binname: bin/nix
-  visiblename: bin/nix
-  version: 2.35.4
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: spack
+- repo: alpine_3_20
+  subrepo: community
   srcname: nix
-  visiblename: nix
-  version: 2.3.15
-  origversion: null
+  binname: nix-bash-completion
+  visiblename: nix-bash-completion
+  version: 2.22.0
+  origversion: 2.22.0-r0
   status: outdated
+  summary: Bash completions for nix
   maintainers:
-    - charmoniumq@spack
+    - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
@@ -1477,34 +1479,6 @@
   origversion: 2.22.0-r0
   status: outdated
   summary: Fish completions for nix
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: nix
-  binname: nix
-  visiblename: nix
-  version: 2.22.0
-  origversion: 2.22.0-r0
-  status: outdated
-  summary: The purely functional package manager
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: nix
-  binname: nix-bash-completion
-  visiblename: nix-bash-completion
-  version: 2.22.0
-  origversion: 2.22.0-r0
-  status: outdated
-  summary: Bash completions for nix
   maintainers:
     - folliekazetani@protonmail.com
   licenses:
@@ -1593,21 +1567,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.26.3
-  origversion: 2.26.3+dfsg-1
-  status: outdated
-  maintainers:
-    - jljusten@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: alpine_3_21
   subrepo: community
@@ -1748,17 +1707,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - LGPL-2.1-or-later
-  vulnerable: true
-- repo: slackbuilds
-  srcname: system/nix
-  visiblename: system/nix
-  version: 2.17.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - pouria.rz@outlook.com
-  categories:
-    - system
   vulnerable: true
 - repo: alpine_3_22
   subrepo: community
@@ -2433,20 +2381,61 @@
   categories:
     - nixVersions
   vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.24.9
+  origversion: 2.24.9+dfsg-2ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: nix
   binnames:
     - nix-bin
     - nix-setup-systemd
   visiblename: nix
   version: 2.26.3
-  origversion: 2.26.3+dfsg-1
+  origversion: 2.26.3+dfsg-1ubuntu4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: slackbuilds
+  srcname: system/nix
+  visiblename: system/nix
+  version: 2.17.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - pouria.rz@outlook.com
+  categories:
+    - system
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.34.3
+  origversion: 2.34.3+dfsg-1
   status: outdated
   maintainers:
     - jljusten@debian.org
   categories:
-    - devel
+    - universe/misc
   vulnerable: true
 - repo: pardus_21
   subrepo: main
@@ -2508,6 +2497,62 @@
   categories:
     - devel
   vulnerable: true
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.26.3
+  origversion: 2.26.3+dfsg-1
+  status: outdated
+  maintainers:
+    - jljusten@debian.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.8.0
+  origversion: 2.8.0-1.1
+  status: outdated
+  maintainers:
+    - thomas@koch.ro
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: nix
+  binnames:
+    - nix-bin
+    - nix-setup-systemd
+  visiblename: nix
+  version: 2.26.3
+  origversion: 2.26.3+dfsg-1
+  status: outdated
+  maintainers:
+    - jljusten@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: spack
+  srcname: nix
+  visiblename: nix
+  version: 2.3.15
+  origversion: null
+  status: outdated
+  maintainers:
+    - charmoniumq@spack
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: nix
@@ -2535,51 +2580,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.24.9
-  origversion: 2.24.9+dfsg-2ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.26.3
-  origversion: 2.26.3+dfsg-1ubuntu4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: nix
-  binnames:
-    - nix-bin
-    - nix-setup-systemd
-  visiblename: nix
-  version: 2.34.3
-  origversion: 2.34.3+dfsg-1
-  status: outdated
-  maintainers:
-    - jljusten@debian.org
   categories:
     - universe/misc
   vulnerable: true
