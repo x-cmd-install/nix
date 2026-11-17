@@ -14,11 +14,11 @@ x install nix
 
 ## 代码洞察
 
-合计: **174,797** 行代码（覆盖前 5 种语言、共 **2022** 个文件）。
+合计: **174,807** 行代码（覆盖前 5 种语言、共 **2022** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 104,081 | 10,174 | 19,140 | 512 |
+| Cpp | 104,090 | 10,173 | 19,142 | 512 |
 | CppHeader | 23,932 | 13,615 | 7,540 | 354 |
 | Nix | 17,771 | 2,044 | 2,539 | 752 |
 | Sh | 13,408 | 3,118 | 3,991 | 300 |
@@ -26,12 +26,12 @@ x install nix
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.5 / 10**
+总评分: **6.7 / 10**
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,26 +42,26 @@ x install nix
 
 ## 流行度
 
-- **Star**: 18,034 · **Fork**: 2,081 · **开放 issue**: 7,384 · **贡献者**: 916
+- **Star**: 18,040 · **Fork**: 2,082 · **开放 issue**: 7,385 · **贡献者**: 916
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 7038 · **开放 PR**: 599 · **已关闭 issue**: 4922 · **开放 issue**: 2462 · **提交数**: 24925
+- **发布数**: 0 · **已合并 PR**: 7045 · **开放 PR**: 598 · **已关闭 issue**: 4923 · **开放 issue**: 2462 · **提交数**: 24941
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 90 | 66 | 14 | 33 | 244 |
-| last60d | 2026-09-17 | 0 | 163 | 95 | 26 | 58 | 430 |
-| 90d | 2026-08-18 | 0 | 249 | 128 | 39 | 78 | 631 |
-| last180d | 2026-05-20 | 0 | 488 | 170 | 92 | 150 | 1230 |
-| 360d | 2025-11-21 | 0 | 1260 | 338 | 201 | 282 | 2843 |
-| last720d | 2024-11-26 | 0 | 2866 | 428 | 533 | 594 | 6051 |
+| 30d | 2026-10-18 | 0 | 92 | 59 | 12 | 32 | 260 |
+| last60d | 2026-09-18 | 0 | 166 | 94 | 26 | 57 | 446 |
+| 90d | 2026-08-19 | 0 | 253 | 125 | 38 | 79 | 648 |
+| last180d | 2026-05-21 | 0 | 492 | 169 | 92 | 151 | 1247 |
+| 360d | 2025-11-22 | 0 | 1259 | 337 | 202 | 280 | 2860 |
+| last720d | 2024-11-27 | 0 | 2869 | 427 | 532 | 592 | 6061 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nix) 上共有 **161** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**98** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nix) 上共有 **163** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**97** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -75,7 +75,7 @@ x install nix
 | Nix unstable | `2.35.6` | ✅ latest |
 | Void | `2.35.2` | ⚠️ outdated |
 | Alpine edge | `2.31.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.35.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.35.6` | ✅ latest |
 
 ## 改进这些数据
 
@@ -86,4 +86,4 @@ nix 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:34:38Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:51:05Z._
