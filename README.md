@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,051 · **Forks**: 2,086 · **Open issues**: 7,387 · **Contributors**: 916
+- **Stars**: 18,052 · **Forks**: 2,086 · **Open issues**: 7,388 · **Contributors**: 916
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7052 · **Open PRs**: 602 · **Closed issues**: 4924 · **Open issues**: 2463 · **Commits**: 24959
+- **Releases**: 0 · **Merged PRs**: 7052 · **Open PRs**: 602 · **Closed issues**: 4924 · **Open issues**: 2464 · **Commits**: 24959
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 91 | 59 | 12 | 33 | 280 |
-| last60d | 2026-09-21 | 0 | 165 | 96 | 26 | 56 | 466 |
-| 90d | 2026-08-22 | 0 | 244 | 129 | 39 | 78 | 668 |
-| last180d | 2026-05-24 | 0 | 493 | 171 | 92 | 148 | 1267 |
-| 360d | 2025-11-25 | 0 | 1250 | 340 | 200 | 278 | 2880 |
-| last720d | 2024-11-30 | 0 | 2874 | 432 | 528 | 590 | 6067 |
+| 30d | 2026-10-22 | 0 | 88 | 57 | 11 | 33 | 280 |
+| last60d | 2026-09-22 | 0 | 165 | 96 | 26 | 57 | 466 |
+| 90d | 2026-08-23 | 0 | 242 | 129 | 39 | 79 | 668 |
+| last180d | 2026-05-25 | 0 | 492 | 171 | 92 | 149 | 1267 |
+| 360d | 2025-11-26 | 0 | 1242 | 338 | 198 | 277 | 2880 |
+| last720d | 2024-12-01 | 0 | 2874 | 432 | 526 | 590 | 6066 |
 
 ## Distribution status
 
-Reported by **163** distros on [repology.org](https://repology.org/project/nix). **16** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
+Reported by **164** distros on [repology.org](https://repology.org/project/nix). **5** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -70,12 +70,12 @@ Reported by **163** distros on [repology.org](https://repology.org/project/nix).
 | Debian 13 | `2.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.34.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.18.1` | ⚠️ outdated |
-| Arch | `2.35.6` | ✅ latest |
-| Fedora rawhide | `2.35.6` | ✅ latest |
-| Nix unstable | `2.35.6` | ✅ latest |
+| Arch | `2.36.0` | ✅ latest |
+| Fedora rawhide | `2.35.6` | ⚠️ outdated |
+| Nix unstable | `2.35.6` | 🪦 legacy |
 | Void | `2.35.2` | ⚠️ outdated |
 | Alpine edge | `2.31.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.35.6` | ✅ latest |
+| openSUSE Tumbleweed | `2.35.6` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -86,4 +86,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:27:38Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:14:05Z._
