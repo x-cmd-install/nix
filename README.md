@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,052 · **Forks**: 2,086 · **Open issues**: 7,388 · **Contributors**: 916
+- **Stars**: 18,058 · **Forks**: 2,086 · **Open issues**: 7,389 · **Contributors**: 916
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7052 · **Open PRs**: 602 · **Closed issues**: 4924 · **Open issues**: 2464 · **Commits**: 24959
+- **Releases**: 0 · **Merged PRs**: 7052 · **Open PRs**: 602 · **Closed issues**: 4924 · **Open issues**: 2465 · **Commits**: 24959
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 88 | 57 | 11 | 33 | 280 |
-| last60d | 2026-09-22 | 0 | 165 | 96 | 26 | 57 | 466 |
-| 90d | 2026-08-23 | 0 | 242 | 129 | 39 | 79 | 668 |
-| last180d | 2026-05-25 | 0 | 492 | 171 | 92 | 149 | 1267 |
-| 360d | 2025-11-26 | 0 | 1242 | 338 | 198 | 277 | 2880 |
-| last720d | 2024-12-01 | 0 | 2874 | 432 | 526 | 590 | 6066 |
+| 30d | 2026-10-23 | 0 | 88 | 56 | 10 | 34 | 218 |
+| last60d | 2026-09-23 | 0 | 159 | 94 | 26 | 56 | 439 |
+| 90d | 2026-08-24 | 0 | 240 | 129 | 39 | 80 | 620 |
+| last180d | 2026-05-26 | 0 | 491 | 171 | 90 | 150 | 1213 |
+| 360d | 2025-11-27 | 0 | 1237 | 338 | 197 | 278 | 2807 |
+| last720d | 2024-12-02 | 0 | 2873 | 432 | 526 | 589 | 6065 |
 
 ## Distribution status
 
-Reported by **164** distros on [repology.org](https://repology.org/project/nix). **5** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
+Reported by **163** distros on [repology.org](https://repology.org/project/nix). **6** are ✅ on the latest upstream release, **101** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:14:05Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:36:28Z._
