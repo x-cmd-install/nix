@@ -14,24 +14,24 @@ x install nix
 
 ## 代码洞察
 
-合计: **175,108** 行代码（覆盖前 5 种语言、共 **2024** 个文件）。
+合计: **176,172** 行代码（覆盖前 5 种语言、共 **2122** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 104,266 | 10,189 | 19,194 | 514 |
-| CppHeader | 24,001 | 13,774 | 7,570 | 354 |
-| Nix | 17,803 | 2,047 | 2,539 | 752 |
-| Sh | 13,430 | 3,125 | 3,995 | 300 |
-| Meson | 4,836 | 367 | 649 | 104 |
+| Cpp | 105,077 | 10,688 | 19,329 | 515 |
+| CppHeader | 24,173 | 13,910 | 7,608 | 356 |
+| Nix | 17,816 | 2,047 | 2,539 | 755 |
+| Sh | 13,476 | 3,135 | 4,002 | 300 |
+| Json | 4,865 | 0 | 0 | 196 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.7 / 10**
+总评分: **6.6 / 10**
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,26 +42,26 @@ x install nix
 
 ## 流行度
 
-- **Star**: 18,061 · **Fork**: 2,089 · **开放 issue**: 7,392 · **贡献者**: 916
+- **Star**: 18,064 · **Fork**: 2,088 · **开放 issue**: 7,392 · **贡献者**: 917
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 7053 · **开放 PR**: 609 · **已关闭 issue**: 4924 · **开放 issue**: 2468 · **提交数**: 24961
+- **发布数**: 0 · **已合并 PR**: 7064 · **开放 PR**: 607 · **已关闭 issue**: 4924 · **开放 issue**: 2468 · **提交数**: 24995
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 86 | 62 | 10 | 37 | 220 |
-| last60d | 2026-09-24 | 0 | 158 | 101 | 26 | 59 | 441 |
-| 90d | 2026-08-25 | 0 | 239 | 135 | 36 | 81 | 622 |
-| last180d | 2026-05-27 | 0 | 487 | 176 | 88 | 152 | 1215 |
-| 360d | 2025-11-28 | 0 | 1236 | 345 | 197 | 281 | 2809 |
-| last720d | 2024-12-03 | 0 | 2874 | 439 | 524 | 592 | 6061 |
+| 30d | 2026-10-25 | 0 | 86 | 49 | 10 | 36 | 250 |
+| last60d | 2026-09-25 | 0 | 168 | 99 | 25 | 59 | 472 |
+| 90d | 2026-08-26 | 0 | 244 | 134 | 35 | 80 | 656 |
+| last180d | 2026-05-28 | 0 | 495 | 175 | 88 | 151 | 1249 |
+| 360d | 2025-11-29 | 0 | 1246 | 344 | 197 | 281 | 2843 |
+| last720d | 2024-12-04 | 0 | 2883 | 438 | 523 | 589 | 6092 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nix) 上共有 **163** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**100** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nix) 上共有 **163** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**99** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -71,7 +71,7 @@ x install nix
 | Ubuntu 26.04 LTS | `2.34.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.18.1` | ⚠️ outdated |
 | Arch | `2.36.0` | ✅ latest |
-| Fedora rawhide | `2.35.6` | ⚠️ outdated |
+| Fedora rawhide | `2.36.0` | ✅ latest |
 | Nix unstable | `2.35.6` | 🪦 legacy |
 | Void | `2.35.2` | ⚠️ outdated |
 | Alpine edge | `2.31.5` | ⚠️ outdated |
@@ -86,4 +86,4 @@ nix 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T10:20:16Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:47:57Z._
