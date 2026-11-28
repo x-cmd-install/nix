@@ -14,13 +14,13 @@ x install nix
 
 ## Code insight
 
-Total: **177,069** lines of code across **2127** files in the top 5 languages.
+Total: **177,131** lines of code across **2127** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Cpp | 105,655 | 10,804 | 19,424 | 519 |
 | CppHeader | 24,382 | 14,175 | 7,666 | 357 |
-| Nix | 17,816 | 2,047 | 2,539 | 755 |
+| Nix | 17,878 | 2,048 | 2,542 | 755 |
 | Sh | 13,478 | 3,136 | 4,003 | 300 |
 | Json | 4,866 | 0 | 0 | 196 |
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,081 · **Forks**: 2,090 · **Open issues**: 7,396 · **Contributors**: 918
+- **Stars**: 18,087 · **Forks**: 2,090 · **Open issues**: 7,397 · **Contributors**: 918
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7072 · **Open PRs**: 611 · **Closed issues**: 4925 · **Open issues**: 2471 · **Commits**: 25029
+- **Releases**: 0 · **Merged PRs**: 7074 · **Open PRs**: 614 · **Closed issues**: 4940 · **Open issues**: 2457 · **Commits**: 25031
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 84 | 47 | 8 | 36 | 283 |
-| last60d | 2026-09-28 | 0 | 170 | 99 | 23 | 59 | 505 |
-| 90d | 2026-08-29 | 0 | 239 | 137 | 34 | 81 | 689 |
-| last180d | 2026-05-31 | 0 | 494 | 180 | 86 | 151 | 1282 |
-| 360d | 2025-12-02 | 0 | 1236 | 346 | 195 | 284 | 2878 |
-| last720d | 2024-12-07 | 0 | 2881 | 442 | 520 | 592 | 6112 |
+| 30d | 2026-10-29 | 0 | 82 | 48 | 9 | 32 | 285 |
+| last60d | 2026-09-29 | 0 | 172 | 101 | 25 | 58 | 507 |
+| 90d | 2026-08-30 | 0 | 240 | 139 | 36 | 79 | 691 |
+| last180d | 2026-06-01 | 0 | 491 | 183 | 89 | 148 | 1284 |
+| 360d | 2025-12-03 | 0 | 1234 | 349 | 201 | 276 | 2880 |
+| last720d | 2024-12-08 | 0 | 2882 | 445 | 529 | 584 | 6113 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nix lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:35:39Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:47:03Z._
